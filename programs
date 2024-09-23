@@ -1,0 +1,17 @@
+#include <stdio.h>
+int sum(int,int,int);
+int sum(int a, int b,int c)
+{
+	int sum;
+	sum = a+b+c;
+	return a+b+c;
+}
+
+int main()
+{
+	int a = 10, b = 20, c = 30;
+	int result = sum(a,b,c);
+	printf("Sum of %d, %d and %d = %d ", a,b,c, result);
+	return 0;
+}
+
